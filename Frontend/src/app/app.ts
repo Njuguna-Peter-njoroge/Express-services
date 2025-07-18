@@ -4,10 +4,12 @@ import {Navbar} from './component/Shared/navbar/navbar';
 import {Footer} from './component/Shared/footer/footer';
 import {Login} from './component/auth/login/login';
 import {Register} from './component/auth/register/register';
+import {EmailVerification} from './component/auth/email-verification/email-verification';
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, Footer, Login, Register],
+  imports: [RouterOutlet, Navbar, Footer, Login, Register,EmailVerification],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

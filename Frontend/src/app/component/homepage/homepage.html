@@ -1,0 +1,58 @@
+<app-navbar></app-navbar>
+
+<div class="relative w-full h-[600px] overflow-hidden">
+  <!-- Background image -->
+  <img src="/assets/homepage2.png" alt="Homepage Banner" class="absolute top-0 left-0 w-full h-full object-cover" />
+
+  <!-- Overlay text + button -->
+  <div class="absolute inset-0 flex flex-col items-center justify-center px-10 space-y-6 z-10">
+    <h1 class="font-bold text-4xl text-white">Logistics and Transportation</h1>
+    <p class="font-bold text-3xl text-white leading-tight text-center">
+      Digital & Trusted Courier <br />
+      Logistics Company
+    </p>
+    <!-- Button row -->
+    <div class="flex space-x-32">
+      <button class="bg-yellow-500 hover:bg-yellow-600 text-black px-6 py-2 rounded shadow-lg">
+        Get Started
+      </button>
+      <button class="bg-yellow-500 hover:bg-yellow-600 text-black px-6 py-2 rounded shadow-lg">
+        Learn More
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Cards (outside the absolutely positioned area) -->
+<div class="relative mx-auto -mt-16 z-20">
+  <div class="grid grid-cols-4 gap-6 bg-white rounded-lg p-6 shadow-lg">
+    <img src="/assets/card1.png" alt="Fast Delivery" class="mx-auto w-20 h-20" />
+    <img src="/assets/card2.png" alt="Courier Service" class="mx-auto w-20 h-20" />
+    <img src="/assets/card3.png" alt="Delivery" class="mx-auto w-20 h-20" />
+    <img src="/assets/card4.png" alt="Company" class="mx-auto w-20 h-20" />
+  </div>
+</div>
+
+  <div class="mt-12 px-4 text-center ">
+  <h2 class="items-start text-4xl font-bold font-serif flex  justify-center">What we offer</h2>
+   <p class="font-semibold text-gray-400 flex justify-center items-center">Welcome to our transportation services agency. We are the best at our transportation service ever.</p>
+    <div class="max-w-5xl mx-auto grid grid-cols-3 gap-32 mt-12">
+      <div class="bg-white h-72 rounded-lg shadow-lg">
+        <img src="/assets/card1.png" alt="Fast Delivery" class="mx-auto w-20 h-20 mt-10 hover:bg-red-600 hover:scale-105 transition duration-300 ease-in-out" />
+        <p class="mt-6">fast delivery
+          across the country .ensures it arrives on time </p>
+      </div>
+      <div class="bg-white h-72 rounded-lg shadow-lg">
+        <img src="/assets/card2.png" alt="Courier Service" class="mx-auto w-20 h-20 mt-10 hover:bg-red-600 hover:scale-105 transition duration-300 ease-in-out" />
+        <p class="mt-6">live package tracking ensuring
+          efficiently for all the packages</p>
+      </div>
+      <div class="bg-white h-72 rounded-lg shadow-lg">
+        <img src="/assets/card3.png" alt="Delivery" class="mx-auto w-20 h-20 mt-10 hover:bg-red-600 hover:scale-105 transition duration-300 ease-in-out" />
+<p class="mt-6">offering after sale services to oiur customers .enjoy the best parcel services country wide </p>
+      </div>
+    </div>
+
+
+  </div>
+<app-footer></app-footer>
